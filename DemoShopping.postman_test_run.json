@@ -1,0 +1,214 @@
+{
+	"id": "c6166995-bb23-40f1-aa9d-ac4408aa4810",
+	"name": "DemoShopping",
+	"timestamp": "2024-09-24T07:14:43.094Z",
+	"collection_id": "10212385-4a4df644-3de8-4c0e-a754-2d78d8b7bff3",
+	"folder_id": "10212385-e6a51fa6-c8ed-4655-8d87-5b7d93ef60c5",
+	"environment_id": "10212385-e7f9d2b0-35c3-4e31-8238-3e08d89d140f",
+	"totalPass": 7,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-09-24T07:14:37.553Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "0924cc7b-2a41-4edc-839b-2ee713bd568a",
+			"name": "Список всех товаров",
+			"url": "https://qa.demoshopping.ru/products",
+			"time": 2343,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2343
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "e929ed97-3666-4a93-a054-ab36fdc6ac8b",
+			"name": "Добавление нового товара",
+			"url": "https://qa.demoshopping.ru/add-product",
+			"time": 530,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				530
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "28454d6d-185a-4da1-8225-023e054c55ed",
+			"name": "Поиск товара по ID",
+			"url": "https://qa.demoshopping.ru/products/id/2502",
+			"time": 424,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				424
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "f93ae18c-e34f-4ebe-9c37-8cad39957f48",
+			"name": "Полное обновление товара по ID",
+			"url": "https://qa.demoshopping.ru/products/id/2502",
+			"time": 432,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				432
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "f6ab1c17-902a-463a-8fc1-8d2d3cd07a46",
+			"name": "Частичное обновление товара по ID",
+			"url": "https://qa.demoshopping.ru/products/id/2502",
+			"time": 435,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				435
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "074df315-42b8-4e06-ac41-9d7e2b35816a",
+			"name": "Удаление товара по ID",
+			"url": "https://qa.demoshopping.ru/products/id/2502",
+			"time": 449,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Продукт успешно удален": true,
+				"Продукт больше не существует": true
+			},
+			"testPassFailCounts": {
+				"Продукт успешно удален": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Продукт больше не существует": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				449
+			],
+			"allTests": [
+				{
+					"Продукт успешно удален": true,
+					"Продукт больше не существует": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 4613,
+	"collection": {
+		"requests": [
+			{
+				"id": "0924cc7b-2a41-4edc-839b-2ee713bd568a",
+				"method": "GET"
+			},
+			{
+				"id": "e929ed97-3666-4a93-a054-ab36fdc6ac8b",
+				"method": "POST"
+			},
+			{
+				"id": "28454d6d-185a-4da1-8225-023e054c55ed",
+				"method": "GET"
+			},
+			{
+				"id": "f93ae18c-e34f-4ebe-9c37-8cad39957f48",
+				"method": "PUT"
+			},
+			{
+				"id": "f6ab1c17-902a-463a-8fc1-8d2d3cd07a46",
+				"method": "PATCH"
+			},
+			{
+				"id": "074df315-42b8-4e06-ac41-9d7e2b35816a",
+				"method": "DELETE"
+			}
+		]
+	}
+}
